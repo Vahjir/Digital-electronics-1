@@ -1,5 +1,4 @@
 # Digital-electronics-1
-# Nadpis prvni urovne
 
 ## Nadpis druhe urovne s *italic* textem
 
