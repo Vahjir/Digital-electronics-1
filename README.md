@@ -16,6 +16,6 @@ Helikoptera | Seminko
 Bunka 1 | Bunka 2
 Bunka 3 | Bunka 4
 
-![Opička](Images/Baby_ginger_monkey.jpg)
+![Opička](opice.jpg)
 
 https://www.youtube.com/watch?v=V4uYWhk67v0&ab_channel=IyaTerra
