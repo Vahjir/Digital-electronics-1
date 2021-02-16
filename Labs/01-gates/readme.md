@@ -55,7 +55,7 @@ end architecture dataflow;
 ```
 
 
-![Gates](Labs/01-gates/gates.PNG)
+![Gates](Digital-electronics-1/Labs/01-gates/gates.PNG)
 
 https://www.edaplayground.com/x/EPr9
 
@@ -93,7 +93,7 @@ end architecture dataflow;
 ```
 
 
-![Distributive](Labs/01-gates/distributive.PNG)
+![Distributive](Digital-electronics-1/Labs/01-gates/distributive.PNG)
 
 https://www.edaplayground.com/x/mHgZ
 
