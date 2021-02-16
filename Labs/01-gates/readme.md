@@ -10,7 +10,7 @@
 | 1 | 1 | 0 |  |
 | 1 | 1 | 1 |  |
 
-'''vhdl
+```vhdl
 ------------------------------------------------------------------------
 --
 -- Example of basic OR, AND, XOR gates.
@@ -52,7 +52,7 @@ begin
 
 
 end architecture dataflow;
-'''
+```
 
 
 ![Gates](Labs/01-gates/gates.PNG)
