@@ -1,14 +1,14 @@
 
-| **c** | **b** |**a** | **f(c,b,a)** |
-| :-: | :-: | :-: | :-: |
-| 0 | 0 | 0 |  |
-| 0 | 0 | 1 |  |
-| 0 | 1 | 0 |  |
-| 0 | 1 | 1 |  |
-| 1 | 0 | 0 |  |
-| 1 | 0 | 1 |  |
-| 1 | 1 | 0 |  |
-| 1 | 1 | 1 |  |
+| **c** | **b** |**a** |
+| :-: | :-: | :-: |
+| 0 | 0 | 0 |
+| 0 | 0 | 1 |
+| 0 | 1 | 0 |
+| 0 | 1 | 1 |
+| 1 | 0 | 0 | 
+| 1 | 0 | 1 |
+| 1 | 1 | 0 |
+| 1 | 1 | 1 |
 
 ```vhdl
 ------------------------------------------------------------------------
@@ -55,7 +55,7 @@ end architecture dataflow;
 ```
 
 
-![Gates](Labs/01-gates/gates.PNG)
+![Gates](gates.PNG)
 
 https://www.edaplayground.com/x/EPr9
 
@@ -93,7 +93,7 @@ end architecture dataflow;
 ```
 
 
-![Distributive](Labs/01-gates/distributive.PNG)
+![Distributive](distributive.PNG)
 
 https://www.edaplayground.com/x/mHgZ
 
