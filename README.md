@@ -1,5 +1,11 @@
 # Digital-electronics-1
-## Zvlebt 2 
+# Nadpis prvni urovne
+
+## Nadpis druhe urovne s *italic* textem
+
+__zvyrazneny text__ s přikazem bold
+~~Přeškrtnuty text.~~ pomocí ~~
+
 
 ```
 git status
