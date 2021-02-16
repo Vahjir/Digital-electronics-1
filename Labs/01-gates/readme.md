@@ -55,7 +55,7 @@ end architecture dataflow;
 ```
 
 
-![Gates](https://github.com/Vahjir/Digital-electronics-1/Labs/01-gates/gates.PNG?raw=true)
+![Gates](https://github.com/Vahjir/{Digital-electronics-1}/Labs/01-gates/gates.PNG?raw=true)
 
 https://www.edaplayground.com/x/EPr9
 
