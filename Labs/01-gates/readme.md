@@ -59,6 +59,40 @@ end architecture dataflow;
 
 https://www.edaplayground.com/x/EPr9
 
+```vhdl
+------------------------------------------------------------------------
+
+library ieee;               -- Standard library
+use ieee.std_logic_1164.all;-- Package for data types and logic operations
+
+------------------------------------------------------------------------
+entity distributive is
+    port(
+        x_i    : in  std_logic;         -- Data input
+        y_i    : in  std_logic;         -- Data input
+        z_i	   : in  std_logic;         -- Data input
+        al_o   : out std_logic;         -- 1st left side of eq
+        ar_o   : out std_logic;         -- 1st right side of eq
+        bl_o   : out std_logic;         -- 2st left side of eq
+        br_o   : out std_logic          -- 2st right side of eq
+    );
+end entity distributive;
+
+------------------------------------------------------------------------
+
+architecture dataflow of distributive is
+begin
+  al_o <= (x_i and y_i) or (x_i and z_i);
+  ar_o <= x_i and (y_i or z_i);
+  bl_o <= (x_i or y_i) and (x_i or z_i);
+  br_o <= x_i or ( y_i and z_i );
+
+
+
+end architecture dataflow;
+```
+
+
 ![Distributive](Labs/01-gates/distributive.PNG)
 
 https://www.edaplayground.com/x/mHgZ
