@@ -10,11 +10,11 @@
 | 1 | 1 | 0 |  |
 | 1 | 1 | 1 |  |
 
-![Gates](Labs/01-gates/Images/gates.PNG)
+![Gates](Labs/01-gates/gates.PNG)
 
 https://www.edaplayground.com/x/EPr9
 
-![Distributive](Labs/01-gates/Images/distributive.PNG)
+![Distributive](Labs/01-gates/distributive.PNG)
 
 https://www.edaplayground.com/x/mHgZ
 
