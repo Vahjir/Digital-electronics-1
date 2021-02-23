@@ -39,7 +39,7 @@
 | 11   | 1    | 1    | 0    | 1    |
 | 10   | 1    | 1    | 0    | 0    |
 
-![B_greater_A](B_greater_A.png)
+![B_greater_A](B_greater_A.PNG)
 
 
 
@@ -52,7 +52,7 @@
 | 11   | 0    | 0    | 0    | 0    |
 | 10   | 0    | 0    | 1    | 0    |
 
-![B_less_A](B_less_A.png)
+![B_less_A](B_less_A.PNG)
 
 **2bit comparator :** https://www.edaplayground.com/x/LJat
 
@@ -213,5 +213,5 @@ end architecture behavioral;
     end process p_stimulus;
 ```
 
-![one_error](one_error.PNG)
 
+![one_error](one_error.PNG)
