@@ -203,7 +203,7 @@ end architecture behavioral;
         
         s_b <= "0001"; s_a <= "1111"; wait for 100 ns;
         assert ((s_B_equals_A = '0') and (s_B_greater_A = '0') and (s_B_less_A = '1'))
-        report "Test failed for input combination: 0000, 1111" severity error;
+        report "Test failed for input combination: 0000, 1111" everity error;
         
         
 
@@ -213,5 +213,5 @@ end architecture behavioral;
     end process p_stimulus;
 ```
 
-
 ![one_error](one_error.PNG)
+=======
