@@ -213,4 +213,5 @@ end architecture behavioral;
     end process p_stimulus;
 ```
 
-![one_error](Digital-electronics-1/Labs/02-logic/one_error.png)
+![one_error](one_error.PNG)
+
