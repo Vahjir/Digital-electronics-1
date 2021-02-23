@@ -39,7 +39,7 @@
 | 11   | 1    | 1    | 0    | 1    |
 | 10   | 1    | 1    | 0    | 0    |
 
-![B_greater_A](Digital-electronics-1/Labs/02-logic/B_greater_A.PNG)
+![B_greater_A](B_greater_A.png)
 
 
 
@@ -52,7 +52,7 @@
 | 11   | 0    | 0    | 0    | 0    |
 | 10   | 0    | 0    | 1    | 0    |
 
-![B_less_A](Digital-electronics-1/Labs/02-logic/B_less_A.PNG)
+![B_less_A](B_less_A.png)
 
 **2bit comparator :** https://www.edaplayground.com/x/LJat
 
