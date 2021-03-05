@@ -50,3 +50,6 @@ end architecture Behavioral;
 #### Screenshot with simulated time waveforms; always display all inputs and outputs.
 
 ![Sim](Images/Sim.PNG)
+
+[Vivado tutorial]: https://github.com/Vahjir/Digital-electronics-1/blob/main/Labs/03-vivado/tutorial.md
+
