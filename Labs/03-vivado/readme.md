@@ -51,5 +51,5 @@ end architecture Behavioral;
 
 ![Sim](Images/Sim.PNG)
 
-[Vivado tutorial]: https://github.com/Vahjir/Digital-electronics-1/blob/main/Labs/03-vivado/tutorial.md
+[Vivado tutorial]: https://github.com/Vahjir/Digital-electronics-1/blob/main/Labs/03-vivado/tutorial.md	""Tutorial""
 
