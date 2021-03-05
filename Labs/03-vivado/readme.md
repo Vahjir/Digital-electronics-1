@@ -49,4 +49,4 @@ end architecture Behavioral;
 
 #### Screenshot with simulated time waveforms; always display all inputs and outputs.
 
-![Sim](Images\Sim.PNG)
+![Sim](\Images\Sim.PNG)
