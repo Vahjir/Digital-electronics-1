@@ -49,5 +49,4 @@ end architecture Behavioral;
 
 #### Screenshot with simulated time waveforms; always display all inputs and outputs.
 
-![Sim](Images\Sim.PNG)
-
+![Sim](Digital-electronics-1\Labs\03-vivado\Images\Sim.PNG)
