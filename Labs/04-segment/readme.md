@@ -184,4 +184,4 @@ end architecture Behavioral;
     LED(7)  <= '1' when (SW = "0001" or SW = "0010" or SW = "0100" or SW = "1000") else '0';
 ```
 
-![2st](Images/2nd.PNG)
+![2nd](Images/2nd.png)
