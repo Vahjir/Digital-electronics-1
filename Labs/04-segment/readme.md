@@ -1,4 +1,4 @@
-#### Figure or table with connection of 7-segment displays on Nexys A7 board
+##### Figure with connection of 7-segment displays on Nexys A7 board:
 
 ![board](Images/board.PNG)
 
@@ -21,7 +21,7 @@
 |    E    |    1110    |   0   |   1   |   1   |   0   |   0   |   0   |   0   |
 |    F    |    1111    |   0   |   1   |   1   |   1   |   0   |   0   |   0   |
 
-- #### Listing of VHDL architecture from source file `hex_7seg.vhd` with syntax highlighting
+- ##### Listing of VHDL architecture from source file `hex_7seg.vhd` with syntax highlighting:
 
 ```vhdl
 architecture Behavioral of hex_7seg is
@@ -81,7 +81,7 @@ begin
 end architecture Behavioral;
 ```
 
-- #### Listing of VHDL stimulus process from testbench file `tb_hex_7seg.vhd` with syntax highlighting and asserts
+- ##### Listing of VHDL stimulus process from testbench file `tb_hex_7seg.vhd` with syntax highlighting and asserts:
 
 ```vhdl
  p_stimulus  :  process
@@ -125,5 +125,62 @@ end architecture Behavioral;
         report "Stimulus process finished" severity note;
         wait;
     end process p_stimulus;
+```
+
+- ##### Screenshot with simulated time waveforms; always display all inputs and outputs:
+
+  ![1st](Images/1st.PNG)
+
+- ##### Listing of VHDL code from source file `top.vhd` with 7-segment module instantiation:
+
+```vhdl
+  -- Instantiation
+    hex2seg : entity work.hex_7seg
+        port map(
+            hex_i    => SW,
+            
+            seg_o(6) => CA,
+            seg_o(5) => CB,
+            seg_o(4) => CC,
+            seg_o(3) => CD,
+            seg_o(2) => CE,
+            seg_o(1) => CF,
+            seg_o(0) => CG
+        );
+
+```
+
+- ##### Truth table and listing of VHDL code for LEDs(7:4) with syntax highlighting:
+
+| **Hex** | **Inputs** | **LED4** | **LED5** | **LED6** | **LED7** |
+| :-----: | :--------: | :------: | :------: | :------: | :------: |
+|    0    |    0000    |    1     |    0     |    0     |    0     |
+|    1    |    0001    |    0     |    0     |    1     |    1     |
+|    2    |    0010    |    0     |    0     |    0     |    1     |
+|    3    |    0011    |    0     |    0     |    1     |    0     |
+|    4    |    0100    |    0     |    0     |    0     |    1     |
+|    5    |    0101    |    0     |    0     |    1     |    0     |
+|    6    |    0110    |    0     |    0     |    0     |    0     |
+|    7    |    0111    |    0     |    0     |    1     |    0     |
+|    8    |    1000    |    0     |    0     |    0     |    1     |
+|    9    |    1001    |    0     |    0     |    1     |    0     |
+|    A    |    1010    |    0     |    1     |    0     |    0     |
+|    b    |    1011    |    0     |    1     |    0     |    0     |
+|    C    |    1100    |    0     |    1     |    0     |    0     |
+|    d    |    1101    |    0     |    1     |    0     |    0     |
+|    E    |    1110    |    0     |    1     |    0     |    0     |
+|    F    |    1111    |    0     |    1     |    0     |    0     |
+
+```vhdl
+    LED(4)  <= '1' when (SW = "0000") else '0';
+     
+    
+    LED(5)  <= '1' when (SW > "1001") else '0';
+    
+   
+    LED(6)  <= SW(0);
+    
+   
+    LED(7)  <= '1' when (SW = "0001" or SW = "0010" or SW = "0100" or SW = "1000") else '0';
 ```
 
