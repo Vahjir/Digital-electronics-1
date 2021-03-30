@@ -4,22 +4,22 @@
 
 #### Characteristic equations and completed tables for D, JK, T flip-flops:
 
-![EQ](Images/CodeCogsEqn.PNG)
+![EQ](Images/CodeCogsEqn.png)
 
 |             **clk**              | **d** | **q(n)** | **q(n+1)** | **Comments**                                    |
 | :------------------------------: | :---: | :------: | :--------: | :---------------------------------------------- |
-| ![rising](Images/eq_uparrow.PNG) |   0   |    0     |     0      | Input signal is stored to FF at the rising edge |
-| ![rising](Images/eq_uparrow.PNG) |   0   |    1     |     0      | Input signal is stored to FF at the rising edge |
-| ![rising](Images/eq_uparrow.PNG) |   1   |    0     |     1      | Input signal is stored to FF at the rising edge |
-| ![rising](Images/eq_uparrow.PNG) |   1   |    1     |     1      | Input signal is stored to FF at the rising edge |
+| ![rising](Images/eq_uparrow.png) |   0   |    0     |     0      | Input signal is stored to FF at the rising edge |
+| ![rising](Images/eq_uparrow.png) |   0   |    1     |     0      | Input signal is stored to FF at the rising edge |
+| ![rising](Images/eq_uparrow.png) |   1   |    0     |     1      | Input signal is stored to FF at the rising edge |
+| ![rising](Images/eq_uparrow.png) |   1   |    1     |     1      | Input signal is stored to FF at the rising edge |
 
 
 
 |             **clk**              | **j** | **k** | **q(n)** | **q(n+1)** | **Comments** |
 | :------------------------------: | :---: | :---: | :------: | :--------: | :----------- |
-| ![rising](Images/eq_uparrow.PNG) |   0   |   0   |    0     |     0      | No change    |
-| ![rising](Images/eq_uparrow.PNG) |   0   |   0   |    1     |     1      | No change    |
-| ![rising](Images/eq_uparrow.PNG) |   0   |   1   |    0     |     0      | Reset        |
+| ![rising](Images/eq_uparrow.png) |   0   |   0   |    0     |     0      | No change    |
+| ![rising](Images/eq_uparrow.png) |   0   |   0   |    1     |     1      | No change    |
+| ![rising](Images/eq_uparrow.png) |   0   |   1   |    0     |     0      | Reset        |
 | ![rising](Images/eq_uparrow.png) |   0   |   1   |    1     |     0      | Reset        |
 | ![rising](Images/eq_uparrow.png) |   1   |   0   |    0     |     1      | Set          |
 | ![rising](Images/eq_uparrow.png) |   1   |   0   |    1     |     1      | Set          |
