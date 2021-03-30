@@ -300,4 +300,4 @@
 
 - #### Image of the driver schematic. The image can be drawn on a computer or by hand:
 
-![picture](Images/picture.png)
+<img src="Images/picture.png" alt="picture" style="zoom:25%;" />
