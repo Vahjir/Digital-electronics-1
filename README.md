@@ -18,4 +18,5 @@ Bunka 3 | Bunka 4
 
 ![Opička](opice.jpg)
 
-https://www.youtube.com/watch?v=V4uYWhk67v0&ab_channel=IyaTerra
+#Odkaz na projekt:
+https://github.com/xtomes07/DE1_projekt
